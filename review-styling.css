@@ -1,0 +1,263 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Playfair+Display&display=swap");
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+  .content {
+    width: 100%;
+  }
+  .first-rw-img {
+    flex-direction: column;
+  }
+  .image-container-rw img {
+    width: 25em;
+  }
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .content {
+    width: 90%;
+  }
+  .image-container-rw img {
+    width: 28em;
+  }
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 1270px) and (min-width: 1024px) {
+  .content {
+    width: 80%;
+  }
+  .first-rw-img {
+    flex-direction: column;
+  }
+  .image-container-rw img {
+    width: 30em;
+  }
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 1340px) and (min-width: 1270px) {
+  .content {
+    width: 70%;
+  }
+  .image-container-rw img {
+    width: 40em;
+  }
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 1340px) {
+  .content {
+    width: 70%;
+  }
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .image-container-rw img {
+    width: 40em;
+  }
+}
+body {
+  background-color: white;
+}
+
+.content {
+  margin: auto;
+  margin-top: 2em;
+  box-shadow: inset;
+  padding: 1em;
+  padding-left: 6em;
+  background-color: #fcfbf6;
+}
+.content h1 {
+  font-size: 2.5em;
+  margin-top: 2em;
+  font-family: "lato", sans-serif;
+  text-align: center;
+  color: #244e38;
+  font-weight: 300;
+}
+.content .review-header {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.content p {
+  font-family: "lato", sans-serif;
+  text-align: center;
+  color: #3f2319;
+  font-weight: 300;
+}
+.content .review {
+  font-weight: 400;
+  padding: 0.25em;
+}
+.content hr {
+  border: solid 2px #fcfbf6;
+  background-color: #3f2319;
+  margin-bottom: 1em;
+}
+.content .opening {
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+}
+.content .opening-2 {
+  font-style: italic;
+  font-weight: 400;
+}
+.content .opening-paragraph {
+  font-size: 1.1em;
+  margin-top: 0;
+  padding: 1em;
+  padding-top: 2em;
+  word-spacing: 2px;
+}
+.content section,
+.content main {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin: auto;
+  padding-right: 2em;
+  width: 90%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  color: #3f2319;
+}
+.content ul {
+  list-style: none;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  padding: 1em;
+}
+.content h3 {
+  padding-top: 1em;
+}
+
+.first-rw-img {
+  display: flex;
+}
+.first-rw-img img {
+  width: 17em;
+}
+
+.header {
+  margin: auto;
+  text-align: center;
+}
+.header img {
+  width: 50px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.image-container-rw {
+  display: flex;
+  justify-content: center;
+}
+
+.buy-back {
+  margin-top: 3.5em;
+}
+.buy-back a {
+  font-family: "lato", sans-serif;
+  text-decoration: none;
+  background-color: #3f2319;
+  color: #fcfbf6;
+  text-align: center;
+  border: 1px solid #3f2319;
+  width: 4.2em;
+  padding: 0.5em;
+  margin: auto;
+  margin-left: 0.25em;
+}
+.buy-back a:hover {
+  background-color: #fcfbf6;
+  color: #3f2319;
+}
+
+h4 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 400;
+  font-family: "lato", sans-serif;
+  color: #244e38;
+}
+
+.wrapper {
+  display: grid;
+  font-family: "lato", sans-serif;
+  width: 100%;
+  justify-items: center;
+  margin: auto;
+  margin-bottom: 2em;
+  margin-top: 3em;
+  gap: 1em;
+  background-color: #ebcdbd;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+}
+
+.divider {
+  background-color: #ebcdbd;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: middle;
+  transform: translateY(-0.1rem);
+}
+
+.card-title {
+  word-spacing: 2px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.product {
+  font-style: italic;
+  font-weight: 400;
+  color: #3f2319;
+}
+
+.sub-heading {
+  font-weight: 600;
+  word-spacing: 4px;
+}
+
+.sub-heading:after {
+  content: "\a";
+  white-space: pre;
+}
+
+.card-body {
+  padding: 1em;
+}
+
+.read-more {
+  border: solid 2px #3f2319;
+  padding: 0.3em 0.5em;
+  width: 8em;
+  margin: auto;
+}
+.read-more a {
+  text-decoration: none;
+  color: #41261d;
+}
+.read-more a:hover {
+  color: #fcfbf6;
+}
+
+.read-more:hover {
+  background-color: #41261d;
+}/*# sourceMappingURL=review-styling.css.map */
