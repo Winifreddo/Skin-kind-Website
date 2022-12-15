@@ -1,0 +1,110 @@
+@media only screen and (max-width:480px) and (min-width:320px) {
+    .image-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+  
+    .image-container img {
+               width: 300px;
+               height: 220px;
+             }
+  }
+  
+  @media only screen and (max-width: 768px) and (min-width: 481px) {
+    .image-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+  
+    .image-container img {
+               width: 300px;
+               height: 220px;
+    }       
+  }
+  
+  @media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .image-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+.image-container img {
+           width: 300px;
+           height: 220px;
+         
+    }
+}
+  
+    @media only screen and (max-width: 1270px) and (min-width: 1025px) {
+        .image-container {
+            grid-template-columns: repeat(3, 1fr);
+          }
+ .image-container img {
+            width: 320px;
+            height: 240px;
+          }
+         
+    }
+  
+    @media only screen and (max-width: 1340px) and (min-width: 1270px) {
+        .image-container {
+            grid-template-columns: repeat(6, 1fr);
+          }
+
+          .image-container img {
+            width: 280px;
+    height: 200px;
+          }
+    }
+  
+    @media only screen and (min-width: 1340px) {
+        .image-container {
+            grid-template-columns: repeat(6, 1fr);
+          }
+
+          .image-container img {
+            width: 300px;
+            height: 220px;
+          }
+    }
+
+.image-container {
+    background-color: #ebcdbd;
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    row-gap: 0.75em;
+    margin-bottom: 5em;
+    padding: 5px 8px;
+    color: #244e38;
+
+  
+  h6 {
+    font-weight: 300 !important;
+    padding-left: 7px;
+    text-align: center;
+  }
+  
+ img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+    object-fit: contain;
+    filter: drop-shadow(2px 6px 6px rgba(0, 0, 0, 0.3));
+  }
+  
+ img:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+  }
+}
+
+.recommendation-img {
+  a {
+    color: #244e38;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #41261d;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+}
