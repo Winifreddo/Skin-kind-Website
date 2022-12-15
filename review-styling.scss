@@ -1,6 +1,7 @@
 /*fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Playfair+Display&display=swap");
 
+// media queries
 
 @media only screen and (max-width: 480px) {
   .content {
@@ -104,6 +105,7 @@ $body-weight: 300;
 body {
   background-color: white;
 }
+// main content review 
 
 .content {
   
@@ -214,7 +216,7 @@ h3 {
 
 
 }
-
+// navigation link styling 
 
 .buy-back {
   margin-top: 3.5em;
@@ -246,6 +248,8 @@ h4 {
     font-family: "lato", sans-serif;
     color: $heading-colour;
   }
+
+  // other reviews styling 
 
 .wrapper {
   display: grid;

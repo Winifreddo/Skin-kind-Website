@@ -86,7 +86,7 @@ nav {
   font-weight: 400!important;
   padding-top: 4em;
 }
-
+/* card styling  */
 
 .wrapper {
   display: grid;
@@ -142,7 +142,7 @@ nav {
 .card-body {
   padding: 1em;
 }
-
+/* navigation button styling */
 .read-more{
   border: solid 2px #41261d;
   padding: 0.3em 0.5em;

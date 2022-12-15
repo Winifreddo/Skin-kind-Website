@@ -72,6 +72,7 @@
 *:after {
   box-sizing: border-box;
 }
+// hamburger-icon styling
   #menu,
   #menu:before,
   #menu:after {
@@ -81,7 +82,7 @@
     transition: all 0.2s ease-in-out;
     width: 100%;
   }
-  
+
   #menu {
     margin-top: 0.3em;
     display: inline-block;
@@ -93,7 +94,8 @@
   nav label #menu {
     float: right;
   }
-  
+  // first and third line icon styling 
+
   #menu:before,
   #menu:after {
     content: "";
@@ -135,6 +137,7 @@
       position: absolute;
       z-index: -1;
     }
+    // hamburger animation styling
 
     input[type="checkbox"]:checked + label #menu {
       background: transparent;
@@ -149,6 +152,7 @@
       bottom: 0;
       transform: rotate(45deg);
     }
+// menu anf overlay 
 
     input:checked ~ #overlay {
       height: 100%;

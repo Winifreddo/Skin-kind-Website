@@ -6,7 +6,7 @@ $small-screen-subheading: 1.2em;
 $large-screen-subheading: 1.5em;
 // margins and padding
 $small-screen-mp: 1em;
-
+// media queries
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .intro-paragraph {
     font-size: $small-screen-fs;
@@ -76,7 +76,7 @@ $small-screen-mp: 1em;
     font-size: $large-screen-subheading;
   }
 }
-
+// intro styling
 section {
   font-family: "Playfair Display", serif;
   text-align: center;
