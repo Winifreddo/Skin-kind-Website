@@ -1,0 +1,195 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Playfair+Display&display=swap");
+
+/* navigation menu */
+@import url(navbar.css);
+
+/* sub-navigation styling */
+@import url(subnavigation.css);
+
+/* intro-paragraph styling */
+@import url(intro-section.css);
+
+/* reccomended products section */
+@import url(recommendation.css);
+
+/* article styling */
+@import url(article.css);
+
+/* footer */
+@import url(footer.css);
+
+/*media-query*/
+
+@media only screen and (max-width: 480px) and (min-width: 320px)  {
+  #main-image img {
+    height: 200px;
+  }
+  
+  header {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+  #main-image img {
+    height: 250px;
+  }
+
+  header {
+    margin-bottom: 15px;
+  }
+ 
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  #main-image img {
+    height: 350px;
+  }
+
+  header {
+    margin-bottom: 50px;
+  }
+  
+}
+@media only screen and (max-width: 1270px) and (min-width: 1024px) {
+  #main-image img {
+    height: 450px;
+  }
+  header {
+    margin-bottom: 65px;
+  }
+}
+
+@media only screen and (max-width: 1340px) and (min-width: 1270px)  {
+  #main-image img {
+    height: 450px;
+  }
+  header {
+    margin-bottom: 65px;
+  }
+ 
+}
+
+@media only screen and (min-width: 1340px) {
+  header {
+    margin-bottom: 70px;
+  }
+  .heading {
+    width: 30vw;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fcfbf6;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80em;
+}
+nav {
+  background-color: #ebcdbd;
+}
+
+header {
+  margin-top: 150px;
+
+  text-align: center;
+  color: #244e38;
+}
+
+h1 {
+  font-weight: 400 !important;
+}
+
+/*main image*/
+#main-image img {
+  display: block;
+  margin: auto;
+}
+
+/*article styling*/
+
+.first:after {
+  content: "\a";
+  white-space: pre;
+}
+
+/*dry skin article*/
+
+#dry-1:before {
+  content: "\a\a";
+  white-space: pre;
+}
+
+#dry-2:before {
+  content: "\a\a";
+  white-space: pre;
+}
+#dry-3:before {
+  content: "\a\a";
+  white-space: pre;
+}
+
+.dry-image1,
+.dry-image2 {
+  margin-bottom: 1em;
+}
+.image {
+  grid-column: 2 / span 4;
+}
+
+/*combination skin article */
+#combination-skin {
+  width: 27.8vw;
+}
+#combination-1:before {
+  content: "\a\a";
+  white-space: pre;
+}
+#combination-2:before {
+  content: "\a\a";
+  white-space: pre;
+}
+#combination-3:before {
+  content: "\a\a";
+  white-space: pre;
+}
+
+/* oily skin article */
+#oily-1:before {
+  content: "\a\a";
+  white-space: pre;
+}
+#oily-2:before {
+  content: "\a\a";
+  white-space: pre;
+}
+#oily-3:before {
+  content: "\a\a";
+  white-space: pre;
+}
+
+/* normal skin article */
+#normal-1:before {
+  content: "\a\a";
+  white-space: pre;
+}
+#normal-2:before {
+  content: "\a\a";
+  white-space: pre;
+}
+#normal-3:before {
+  content: "\a\a";
+  white-space: pre;
+}

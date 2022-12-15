@@ -1,0 +1,168 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Playfair+Display&display=swap");
+
+/* navigation menu */
+@import url(navbar.css);
+
+/* intro-paragraph styling */
+@import url(intro-section.css);
+/* footer */
+@import url(footer.css);
+
+/* media query */
+
+@media only screen and (max-width:480px) and (min-width:320px) {
+
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  }
+
+  @media only screen and (max-width: 1270px) and (min-width: 1024px) {
+    .wrapper {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 1340px) and (min-width: 1270px) {
+    .wrapper {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+
+  @media only screen and (min-width: 1340px) {
+  .wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fcfbf6;
+}
+/*navigation menu*/
+
+.container {
+  margin: 0 auto;
+  max-width: 80em;
+}
+
+nav {
+  background-color: #ebcdbd
+}
+
+.heading h1 {
+  margin-top: 4em;
+  font-family: "lato", sans-serif;
+  text-align: center;
+  color: #244e38;
+  font-weight: 400!important;
+  padding-top: 4em;
+}
+
+.heading {
+  height: 15em;
+  background-image: url('images/potential\ background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper {
+  display: grid;
+  font-family: "lato", sans-serif;
+  width: 90%;
+  justify-items: center;
+  margin: auto; 
+ margin-bottom: 2em;
+ margin-top: 3em;
+ gap: 1em;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.divider {
+  background-color: #ebcdbd;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: middle;
+  transform: translateY(-0.1rem);
+}
+
+.card-title {
+  word-spacing: 2px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.product {
+  font-style: italic;
+  font-weight: 400;
+  color: #41261db8;
+}
+
+.sub-heading {
+  font-weight: 600;
+  word-spacing: 4px;
+
+}
+
+.sub-heading:after {
+  content: "\a";
+  white-space: pre;
+}
+
+.card-body {
+  padding: 1em;
+}
+
+.read-more{
+  border: solid 2px #41261d;
+  padding: 0.3em 0.5em;
+  width: 8em;
+  margin: auto;
+}
+
+.read-more a {
+  text-decoration: none;
+  color: #41261d;
+}
+.read-more:hover {
+  background-color: #41261d;
+}
+ .read-more a:hover {
+  color: #fcfbf6;
+}

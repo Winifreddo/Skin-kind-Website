@@ -1,0 +1,21 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Playfair+Display&display=swap");
+
+/* navigation menu */
+@import url(navbar.css);
+
+/* rest of body styling */
+@import url(review-styling.css);
+
+@import url(footer.css);
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+nav {
+    background-color: #ebcdbd;
+}
